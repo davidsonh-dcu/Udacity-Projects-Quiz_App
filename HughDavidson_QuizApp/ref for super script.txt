@@ -1,0 +1,21 @@
+https://stackoverflow.com/questions/16156032/android-string-resource-superscript/22105902#22105902
+
+<string name="sup_string"> a<sup><small>n</small></sup> b </string>
+
+     <style name="CheckTextView">
+        <item name="android:layout_width">105dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <ImageView
+        android:id="@+id/q2_greencheck_image_view"
+        style="@style/RedGreenCheckbox"
+        android:contentDescription="@string/green_tick"
+        app:srcCompat="@mipmap/green_tick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toRightOf="@+id/q3_"
+        app:layout_constraintTop_toBottomOf="@+id/q2_"
+         />
